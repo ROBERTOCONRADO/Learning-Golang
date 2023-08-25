@@ -22,3 +22,11 @@ func x() {
 	var a string
 	println(a)
 }
+
+//Shorthand
+func Shorthand() {
+	//var a string = "shorthand"
+	a := "Shorthand"
+	a = "reatribuindo"
+	println(a)
+}
