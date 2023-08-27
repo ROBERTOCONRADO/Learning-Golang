@@ -12,8 +12,8 @@ func main() {
 
 	for nome, salario := range salarios {
 		fmt.Printf("O salario de %s é %d\n", nome, salario)
+		
 	}
-	
 	//blank identifier
 	for _, salario := range salarios {
 		fmt.Printf("O salario é %d\n", salario)
