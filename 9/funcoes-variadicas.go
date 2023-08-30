@@ -15,6 +15,6 @@ func soma(numeros ...int) int {
 	total := 0
 	for _, numero := range numeros {
 		total += numero
-	}
+	}a
 	return total
 }
